@@ -1,18 +1,20 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { MainpageComponent } from './home/home.component';
+import { IframepageComponent } from './iframe/iframe.component';
+import { AppRoutingModule } from './app-routing.module';
+import { NgxChessBoardModule } from 'ngx-chess-board';
+import { ChessComponent } from './chess/chess.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MainpageComponent,
+    IframepageComponent,
+    ChessComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+  imports: [BrowserModule, AppRoutingModule, NgxChessBoardModule.forRoot()],
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

@@ -1,0 +1,24 @@
+.container {
+    background-color: #eee;
+    padding: 1rem;
+    min-height: calc(100svh - 3rem);
+    display: flex;
+    flex-direction: column;
+}
+
+.iframes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-grow: 1; 
+    min-height: 0; 
+}
+
+.iframe {
+    width: 520px;
+    height: 520px;
+    border: none;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

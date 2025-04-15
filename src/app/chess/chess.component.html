@@ -1,0 +1,6 @@
+<div class="turn-indicator">
+    <p>{{ currentPlayer }}'s Turn</p>
+</div>
+
+<ngx-chess-board #board (moveChange)="onMove($event)">
+</ngx-chess-board>
