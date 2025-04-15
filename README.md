@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.16.
 
-##Live Demo
+## Live Demo
 
 Please visit [Live Demo](https://chess-board-91a28.web.app) to test the functionality
 
